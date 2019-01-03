@@ -5,8 +5,8 @@
 
 # Site
 title: 阿吃过啦
-subtitle: 
-description: 梦想成为优秀的饭桶
+subtitle: 别这么严肃嘛！放松一点，have fun!
+description: 饭桶也想变得优秀
 author: Changsheng Liu
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
@@ -122,7 +122,7 @@ menu:
   archives: /archives/
   tags: /tags/
   # sitemap: /sitemap.xml
-  about: /about/
+  # about: /about/
   # commonweal: /404.html
 
 
