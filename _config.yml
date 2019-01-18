@@ -380,8 +380,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: achiguola-club
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
@@ -397,12 +397,12 @@ wildfire:
   # database config
   databaseProvider: firebase # or wilddog
   firebase: # your firebase config goes here ↓
-    apiKey: 
-    authDomain:
-    databaseURL:
-    projectId:
-    storageBucket:
-    messagingSenderId:
+    apiKey: "AIzaSyALhTF6SfSBkFhnUsTxN1BkvGNytPXgiGM"
+    authDomain: "achiguola-c5bcf.firebaseapp.com"
+    databaseURL: "https://achiguola-c5bcf.firebaseio.com"
+    projectId: "achiguola-c5bcf"
+    storageBucket: "achiguola-c5bcf.appspot.com"
+    messagingSenderId: "775945390559"
   wilddog: # your wilddog config goes here ↓
     siteId:
   # other configs
