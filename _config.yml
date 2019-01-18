@@ -397,12 +397,12 @@ wildfire:
   # database config
   databaseProvider: firebase # or wilddog
   firebase: # your firebase config goes here ↓
-    apiKey: "AIzaSyALhTF6SfSBkFhnUsTxN1BkvGNytPXgiGM"
-    authDomain: "achiguola-c5bcf.firebaseapp.com"
-    databaseURL: "https://achiguola-c5bcf.firebaseio.com"
-    projectId: "achiguola-c5bcf"
-    storageBucket: "achiguola-c5bcf.appspot.com"
-    messagingSenderId: "775945390559"
+    apiKey: 
+    authDomain: 
+    databaseURL: 
+    projectId: 
+    storageBucket: 
+    messagingSenderId: 
   wilddog: # your wilddog config goes here ↓
     siteId:
   # other configs
@@ -462,7 +462,7 @@ gitalk:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: "UA-132770883-1"
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
