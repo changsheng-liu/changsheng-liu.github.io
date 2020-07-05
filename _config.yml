@@ -7,14 +7,14 @@
 title: 阿吃過啦🍜
 subtitle: have fun! ¯\_(ツ)_/¯
 description: 饭桶也想变得优秀
-author: Changsheng Liu
+author: Changsheng L.
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: 
+url: paypal.me/ChangshengL
 baseurl:
 permalink: pretty
 
@@ -731,6 +731,7 @@ vendors:
 
 reward_comment: 二维码还是要放一个的，万一真的有人打赏了呢？
 alipay: /assets/images/IMG_3894.PNG
+paypal: /assets/images/button/IMG_3900.JPG
 
 # Assets
 css: assets/css
