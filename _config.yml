@@ -5,7 +5,7 @@
 
 # Site
 title: 阿吃过啦
-subtitle: 别这么严肃嘛！放松一点，have fun!
+subtitle: have fun! ¯\_(ツ)_/¯
 description: 饭桶也想变得优秀
 author: Changsheng Liu
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
@@ -728,6 +728,9 @@ vendors:
   # https://github.com/ethantw/Han
   han:
 
+
+reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+alipay: /assets/images/IMG_3894.PNG
 
 # Assets
 css: assets/css
