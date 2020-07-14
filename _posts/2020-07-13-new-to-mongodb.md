@@ -2,15 +2,13 @@
 title: MongoDB 新手快速入门
 date: 2020-07-13 20:50:00
 categories:
-- 开发平台
+- 开发技能
 tags:
 - Javascript
 - Database
 - NoSQL
 - MongoDB
 ---
-
-
 
 整理自尚硅谷mongodb入门和菜鸟教程
 
@@ -33,7 +31,6 @@ robo 3T
 ## 术语
 
 - database => db
-
 - collection == table
 - document == row
 - field == column
@@ -42,13 +39,11 @@ robo 3T
 
 ## 操作
 
-`show dbs`
-
-`show databases`
+`show dbs` == `show databases`
 
 `use <db>`
 
-`show collections`
+`show collections` == `show tables`
 
 不需要创建表，插入行就能自动创建表
 
@@ -92,14 +87,12 @@ robo 3T
 
 ## 其他操作
 
-###聚合 aggregation
+### 聚合 aggregation
 
 基本逻辑是mapreduce逻辑，`$match`,`$group`,是典型的pipeline（也可叫做funtional）操作
 
 其他操作函数
-
 - `count()`
-
 - `sort({field1:1, field2:-1})` 一定发生在skip和limit之前
 - `$inc`
 
