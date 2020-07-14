@@ -10,7 +10,7 @@ tags:
 - MongoDB
 ---
 
-# MongoDB 新手快速入门
+
 
 整理自尚硅谷mongodb入门和菜鸟教程
 
