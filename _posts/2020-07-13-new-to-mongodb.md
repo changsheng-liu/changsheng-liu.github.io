@@ -75,9 +75,7 @@ robo 3T
 
 ### 删 delete
 
-`db.<collection>.delete({})`#全部删除也必须带花
-
-括号参数
+`db.<collection>.delete({})`#全部删除也必须带花括号参数#
 
 ### 改 update
 
