@@ -1,6 +1,4 @@
 ---
-
-```
 title: 非运营iOS简易Demo项目快速提交必备配置checklist
 date: 2020-07-14 
 categories:
@@ -8,10 +6,7 @@ categories:
 tags:
 - iOS
 - Apple Store
-```
-
 ---
-
 在很多时候，向app store提交的app并不是想要提供给用户下载，而是要给外部测试人员能供从test flight上下载测试，所以很多细节会忽视。本文描述的是当开发人员提交打包版本的时候容易忽略的细节作为打包之前的checklist。
 
 - 图标logo，最好提供直角图片，像素尺寸2048x2048。
