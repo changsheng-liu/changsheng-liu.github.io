@@ -1,4 +1,3 @@
-```
 ---
 title: MongoDB 新手快速入门
 date: 2020-07-13 20:50:00
@@ -10,7 +9,6 @@ tags:
 - NoSQL
 - MongoDB
 ---
-```
 
 # MongoDB 新手快速入门
 
