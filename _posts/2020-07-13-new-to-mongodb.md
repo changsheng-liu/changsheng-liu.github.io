@@ -37,7 +37,7 @@ robo 3T
 - index
 - primary key
 
-## 操作
+## 使用数据库之前的操作
 
 `show dbs` == `show databases`
 
