@@ -1,3 +1,17 @@
+```
+---
+title: MongoDB 新手快速入门
+date: 2020-07-13 20:50:00
+categories:
+- 开发平台
+tags:
+- Javascript
+- Database
+- NoSQL
+- MongoDB
+---
+```
+
 # MongoDB 新手快速入门
 
 整理自尚硅谷mongodb入门和菜鸟教程
