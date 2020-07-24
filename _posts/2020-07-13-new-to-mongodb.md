@@ -76,6 +76,7 @@ robo 3T
 ### 删 delete
 
 `db.<collection>.deleteMany({})`#全部删除也必须带花括号参数#
+
 `db.<collection>.delectOne({_id:ObjectId(xxxxx)})`
 
 ### 改 update
