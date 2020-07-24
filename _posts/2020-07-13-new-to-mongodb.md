@@ -124,7 +124,7 @@ mongoose.connect('mongodb://localhost:27017/xxdb', {useNewUrlParser: true, useUn
 
 //建立schema
 const theSchema = new mongoose.Schema({
-    title:String,
+    title:String
 =});
 mongoose.model('item', theSchema, 'items');
 //这里的'item'是给schema起的名字，这里的'items'是collection名字，如不设置，默认给schema加s
