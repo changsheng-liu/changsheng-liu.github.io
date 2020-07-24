@@ -75,7 +75,8 @@ robo 3T
 
 ### 删 delete
 
-`db.<collection>.delete({})`#全部删除也必须带花括号参数#
+`db.<collection>.deleteMany({})`#全部删除也必须带花括号参数#
+`db.<collection>.delectOne({_id:ObjectId(xxxxx)})`
 
 ### 改 update
 
@@ -111,26 +112,28 @@ robo 3T
 ### 使用
 
 ```javascript
+
+//建立连接
 const mongoose = require('mongoose')
+mongoose.Promise = global.Promise;
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error!!!!!\n'));
+mongoose.connect('mongodb://localhost:27017/xxdb', {useNewUrlParser: true, useUnifiedTopology: true});
+//这里的xxdb是库名称，db，如果不存在mangoose会自动创建
 
-//init schema and model
-const Schema = new mongoose.Schema;
-const theSchema = new Schema({
-  field1:String,
-  field2:Int
-})
-const theModel = mongoose.model('item', theSchema, 'items');
-##### module.exports = theModel;
-
-##### const Item = require('item');
-//init db
-const db = 'mongodb://localhost:27017/db';
-mongoose.connect(db, err=>{})
+//建立schema
+const theSchema = new mongoose.Schema({
+    title:String,
+=});
+mongoose.model('item', theSchema, 'items');
+//这里的'item'是给schema起的名字，这里的'items'是collection名字，如不设置，默认给schema加s
 
 //CRUD
-Item.find({}).exec(...)
-Item.findById(...).exec(...)
-item.save(function(err, item){s})
+Item.find({}).exec(err, items)=>{})
+Item.findById(theId).exec((err, movie)=>{})
+var theItem = new Item(); theItem.save((err, saved)=>{})
+Item.findByIdAndUpdate(id, {$set:after}, {new;true}, function(err, updated){})
+Item.findByIdAndDelete(mid, (err, deleted)=>{});
 
 ```
 
